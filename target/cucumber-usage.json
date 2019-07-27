@@ -5,12 +5,12 @@
       {
         "name": "Open firefox and Start Application",
         "aggregatedDurations": {
-          "average": 13.185009158,
-          "median": 13.185009158
+          "average": 11.135580616,
+          "median": 11.135580616
         },
         "durations": [
           {
-            "duration": 13.185009158,
+            "duration": 11.135580616,
             "location": "MyApplication.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I give valid \"madhurvishal5@gmai.com\" and \".v9661132\"",
         "aggregatedDurations": {
-          "average": 1.159539625,
-          "median": 1.159539625
+          "average": 1.193288771,
+          "median": 1.193288771
         },
         "durations": [
           {
-            "duration": 1.159539625,
+            "duration": 1.193288771,
             "location": "MyApplication.feature:5"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "Login should be successfull",
         "aggregatedDurations": {
-          "average": 17.023519516,
-          "median": 17.023519516
+          "average": 12.59787448,
+          "median": 12.59787448
         },
         "durations": [
           {
-            "duration": 17.023519516,
+            "duration": 12.59787448,
             "location": "MyApplication.feature:6"
           }
         ]

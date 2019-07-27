@@ -85,7 +85,7 @@ formatter.match({
   "location": "SmokeFacebookTest.Open_firefox_and_Start_Application()"
 });
 formatter.result({
-  "duration": 13185009158,
+  "duration": 11135580616,
   "status": "passed"
 });
 formatter.match({
@@ -102,14 +102,14 @@ formatter.match({
   "location": "SmokeFacebookTest.i_give_valid_and(String,String)"
 });
 formatter.result({
-  "duration": 1159539625,
+  "duration": 1193288771,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeFacebookTest.Login_should_be_successfull()"
 });
 formatter.result({
-  "duration": 17023519516,
+  "duration": 12597874480,
   "status": "passed"
 });
 });

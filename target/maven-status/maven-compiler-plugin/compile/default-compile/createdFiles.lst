@@ -1,0 +1,3 @@
+runner\BaseFireFox.class
+runner\TestRunner.class
+stepDefination\SmokeFacebookTest.class

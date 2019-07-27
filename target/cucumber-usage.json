@@ -1,0 +1,98 @@
+[
+  {
+    "source": "^Open firefox and Start Application$",
+    "steps": [
+      {
+        "name": "Open firefox and Start Application",
+        "aggregatedDurations": {
+          "average": 6.605774737,
+          "median": 2.362435095
+        },
+        "durations": [
+          {
+            "duration": 15.397554693,
+            "location": "MyApplication.feature:4"
+          },
+          {
+            "duration": 2.362435095,
+            "location": "MyApplication.feature:4"
+          },
+          {
+            "duration": 2.057334425,
+            "location": "MyApplication.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I give valid \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I give valid \"vishal5@gmail.com\" and \"kjhkhkkh\"",
+        "aggregatedDurations": {
+          "average": 0.315696632,
+          "median": 0.315696632
+        },
+        "durations": [
+          {
+            "duration": 0.315696632,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I give valid \"vifkk@gmail.com\" and \"hgjjgjg\"",
+        "aggregatedDurations": {
+          "average": 0.379856553,
+          "median": 0.379856553
+        },
+        "durations": [
+          {
+            "duration": 0.379856553,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I give valid \"madhurvishal5@gmai.com\" and \".v9661132\"",
+        "aggregatedDurations": {
+          "average": 0.313123974,
+          "median": 0.313123974
+        },
+        "durations": [
+          {
+            "duration": 0.313123974,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Login should be successfull$",
+    "steps": [
+      {
+        "name": "Login should be successfull",
+        "aggregatedDurations": {
+          "average": 10.8713332,
+          "median": 10.315370773
+        },
+        "durations": [
+          {
+            "duration": 10.315370773,
+            "location": "MyApplication.feature:6"
+          },
+          {
+            "duration": 6.689678751,
+            "location": "MyApplication.feature:6"
+          },
+          {
+            "duration": 15.608950077,
+            "location": "MyApplication.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -7,17 +7,7 @@ Feature: Test Facebook Smoke Scenarios
 
     Examples: 
 
-  Scenario Outline: Test Login With Login Credentials    # MyApplication.feature:11
-    Given Open firefox and Start Application             # SmokeFacebookTest.Open_firefox_and_Start_Application()
-    When I give valid "vishal5@gmail.com" and "kjhkhkkh" # SmokeFacebookTest.i_give_valid_and(String,String)
-    Then Login should be successfull                     # SmokeFacebookTest.Login_should_be_successfull()
-
-  Scenario Outline: Test Login With Login Credentials # MyApplication.feature:12
-    Given Open firefox and Start Application          # SmokeFacebookTest.Open_firefox_and_Start_Application()
-    When I give valid "vifkk@gmail.com" and "hgjjgjg" # SmokeFacebookTest.i_give_valid_and(String,String)
-    Then Login should be successfull                  # SmokeFacebookTest.Login_should_be_successfull()
-
-  Scenario Outline: Test Login With Login Credentials          # MyApplication.feature:13
+  Scenario Outline: Test Login With Login Credentials          # MyApplication.feature:11
     Given Open firefox and Start Application                   # SmokeFacebookTest.Open_firefox_and_Start_Application()
     When I give valid "madhurvishal5@gmai.com" and ".v9661132" # SmokeFacebookTest.i_give_valid_and(String,String)
     Then Login should be successfull                           # SmokeFacebookTest.Login_should_be_successfull()

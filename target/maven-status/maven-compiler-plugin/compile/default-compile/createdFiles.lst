@@ -1,3 +1,4 @@
 runner\BaseFireFox.class
 runner\TestRunner.class
+runner\BaseChrome.class
 stepDefination\SmokeFacebookTest.class

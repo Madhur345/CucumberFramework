@@ -5,11 +5,10 @@ import org.openqa.selenium.By;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import runner.BaseChrome;
 import runner.BaseFireFox;
 
-public class SmokeFacebookTest extends BaseFireFox{
-
-
+public class SmokeFacebookTest extends BaseChrome{
 
 
 	@Given("^Open firefox and Start Application$")

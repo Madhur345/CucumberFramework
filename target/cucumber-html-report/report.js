@@ -1,115 +1,75 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("MyApplication.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/backrevison.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Test Facebook Smoke Scenarios",
+  "line": 2,
+  "name": "Smoke testcase for facebook login",
   "description": "",
-  "id": "test-facebook-smoke-scenarios",
+  "id": "smoke-testcase-for-facebook-login",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "line": 3,
-  "name": "Test Login With Login Credentials",
-  "description": "",
-  "id": "test-facebook-smoke-scenarios;test-login-with-login-credentials",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Open firefox and Start Application",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "I give valid \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "Login should be successfull",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 9,
-  "name": "",
-  "description": "",
-  "id": "test-facebook-smoke-scenarios;test-login-with-login-credentials;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 10,
-      "id": "test-facebook-smoke-scenarios;test-login-with-login-credentials;;1"
-    },
-    {
-      "cells": [
-        "madhurvishal5@gmai.com",
-        ".v9661132"
-      ],
-      "line": 11,
-      "id": "test-facebook-smoke-scenarios;test-login-with-login-credentials;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
 formatter.scenario({
-  "line": 11,
-  "name": "Test Login With Login Credentials",
-  "description": "",
-  "id": "test-facebook-smoke-scenarios;test-login-with-login-credentials;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Open firefox and Start Application",
-  "keyword": "Given "
-});
-formatter.step({
   "line": 5,
-  "name": "I give valid \"madhurvishal5@gmai.com\" and \".v9661132\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
+  "name": "Test facebook login",
+  "description": "",
+  "id": "smoke-testcase-for-facebook-login;test-facebook-login",
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 6,
-  "name": "Login should be successfull",
+  "name": "Open applicatioin",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "I enter \"madhurvishal5@gmail.com\" and \".v9661132\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Validate if login is successfull",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SmokeFacebookTest.Open_firefox_and_Start_Application()"
+  "location": "SingleParameter.open_applicatioin()"
 });
 formatter.result({
-  "duration": 11135580616,
+  "duration": 11753139300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "madhurvishal5@gmai.com",
-      "offset": 14
+      "val": "madhurvishal5@gmail.com",
+      "offset": 9
     },
     {
       "val": ".v9661132",
-      "offset": 43
+      "offset": 39
     }
   ],
-  "location": "SmokeFacebookTest.i_give_valid_and(String,String)"
+  "location": "SingleParameter.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 1193288771,
+  "duration": 487583300,
   "status": "passed"
 });
 formatter.match({
-  "location": "SmokeFacebookTest.Login_should_be_successfull()"
+  "location": "SingleParameter.i_click_on_login_button()"
 });
 formatter.result({
-  "duration": 12597874480,
+  "duration": 14256305300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SingleParameter.validate_if_login_is_successfull()"
+});
+formatter.result({
+  "duration": 36550700,
   "status": "passed"
 });
 });

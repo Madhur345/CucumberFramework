@@ -1,4 +1,5 @@
+stepDefination\SingleParameter.class
 runner\BaseFireFox.class
+runner\DataTableTestRunner.class
 runner\TestRunner.class
 runner\BaseChrome.class
-stepDefination\SmokeFacebookTest.class
